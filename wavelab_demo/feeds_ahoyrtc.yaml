@@ -1,0 +1,133 @@
+feeds:    
+  mast-steuerbord:
+    video_url: "rtsp://admin:za4NT21Vvz@192.168.237.116:554/h265Preview_01_main"
+    codec_in: "h265"
+    codec_out: "av1"
+    cuda_in: true
+    cuda_out: true
+    bitrate: 4000
+    resolution:
+      width: 3840
+      height: 2160
+    framerate: 20
+    fec_percentage: 0
+    is_preset_tuning: false
+    gcc_settings:
+      min_bitrate: 400000
+      max_bitrate: 6000000
+    transceiver_settings:
+      nack: false
+      fec: false
+    priority: 4
+    is_debug: false
+
+  mast-bb:
+    video_url: "rtsp://admin:za4NT21Vvz@192.168.237.115:554/h265Preview_01_main"
+    codec_in: "h265"
+    codec_out: "av1"
+    cuda_in: true
+    cuda_out: true
+    bitrate: 4000
+    resolution:
+      width: 3840
+      height: 2160
+    framerate: 20
+    fec_percentage: 0
+    is_preset_tuning: false
+    gcc_settings:
+      min_bitrate: 400000
+      max_bitrate: 6000000
+    transceiver_settings:
+      nack: false
+      fec: false
+    priority: 4
+    is_debug: false
+
+  mast-bug:
+    video_url: "rtsp://admin:za4NT21Vvz@192.168.237.71:554/h265Preview_01_main"
+    codec_in: "h265"
+    codec_out: "av1"
+    cuda_in: true
+    cuda_out: true
+    bitrate: 4000
+    resolution:
+      width: 1920
+      height: 1080
+    framerate: 20
+    fec_percentage: 0
+    is_preset_tuning: false
+    gcc_settings:
+      min_bitrate: 400000
+      max_bitrate: 6000000
+    transceiver_settings:
+      nack: false
+      fec: false
+    priority: 4
+    is_debug: false
+
+
+  # wavelab-steuerbord:
+  #   video_url: "rtsp://admin:za4NT21Vvz@192.168.237.114:554/h265Preview_01_main"
+  #   codec_in: "h265"
+  #   codec_out: "h264"
+  #   cuda_in: true
+  #   cuda_out: true
+  #   bitrate: 2000
+  #   resolution:
+  #     width: 1920
+  #     height: 1080
+  #   framerate: 20
+  #   fec_percentage: 0
+  #   is_preset_tuning: false
+  #   gcc_settings:
+  #     min_bitrate: 400000
+  #     max_bitrate: 4000000
+  #   transceiver_settings:
+  #     nack: false
+  #     fec: false
+  #   priority: 4
+  #   is_debug: false
+
+  # wavelab-bug:
+  #   video_url: "rtsp://admin:za4NT21Vvz@192.168.237.113:554/h265Preview_01_main"
+  #   codec_in: "h265"
+  #   codec_out: "h264"
+  #   cuda_in: true
+  #   cuda_out: true
+  #   bitrate: 2000
+  #   resolution:
+  #     width: 1920
+  #     height: 1080
+  #   framerate: 20
+  #   fec_percentage: 0
+  #   is_preset_tuning: false
+  #   gcc_settings:
+  #     min_bitrate: 400000
+  #     max_bitrate: 4000000
+  #   transceiver_settings:
+  #     nack: false
+  #     fec: false
+  #   priority: 4
+  #   is_debug: false
+
+  # foerde-panoramic:
+  #   video_url: "rtsp://addix:za4NT21Vvz@212.51.20.59"
+  #   codec_in: "h264"
+  #   codec_out: "h264"
+  #   cuda_in: true
+  #   cuda_out: true
+  #   bitrate: 4000
+  #   resolution:
+  #     width: 3840
+  #     height: 2160
+  #   framerate: 30
+  #   fec_percentage: 10
+  #   is_preset_tuning: false
+  #   gcc_settings:
+  #     min_bitrate: 400000
+  #     max_bitrate: 60000000
+  #   transceiver_settings:
+  #     nack: false
+  #     fec: false
+  #   priority: 4
+  #   is_debug: false

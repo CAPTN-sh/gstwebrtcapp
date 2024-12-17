@@ -1,0 +1,10 @@
+switcher1:
+  type: 'switcher'
+  targets: ['rtt']
+  window_size: 10
+  k: 0.05
+  trend_direction: 'i'
+  trend_agreement_strategy: 'all'
+  warmup_iterations: 100
+  excesses_allowed: 3
+  recovery_iterations: 100

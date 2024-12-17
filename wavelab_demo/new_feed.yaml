@@ -1,0 +1,22 @@
+feeds:    
+  wavelab-steuerbord:
+    video_url: "rtsp://admin:za4NT21Vvz@192.168.237.114:554/h265Preview_01_main"
+    codec_in: "h265"
+    codec_out: "h264"
+    cuda_in: true
+    cuda_out: true
+    bitrate: 6000
+    resolution:
+      width: 3840
+      height: 2160
+    framerate: 60
+    fec_percentage: 0
+    is_preset_tuning: false
+    gcc_settings:
+      min_bitrate: 400000
+      max_bitrate: 6000000
+    transceiver_settings:
+      nack: false
+      fec: false
+    priority: 4
+    is_debug: false

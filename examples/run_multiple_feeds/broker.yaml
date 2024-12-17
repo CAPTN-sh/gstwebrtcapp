@@ -1,0 +1,9 @@
+broker:
+  broker_host: "0.0.0.0"
+  broker_port: 1883
+  keepalive: 20
+  username: null
+  password: null
+  is_tls: false
+  tls_cafile: null
+  protocol: 4

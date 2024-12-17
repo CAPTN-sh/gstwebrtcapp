@@ -1,0 +1,27 @@
+switcher1:
+  type: 'switcher'
+  targets: ['rtt']
+  window_size: 10
+  k: 0.05
+  trend_direction: 'i'
+  trend_agreement_strategy: 'all'
+  warmup_iterations: 100
+  excesses_allowed: 3
+  recovery_iterations: 30
+
+loss_cb:
+  type: 'callback'
+  targets: ['loss']
+  window_size: 4
+  k: 0.2
+  trend_direction: 'i'
+  trend_agreement_strategy: 'half'
+  warmup_iterations: 10
+  excesses_allowed: 1
+  recovery_iterations: 6
+  max_trends_during_recovery: 0
+  failed_recoveries_to_trigger_alarm: 6
+  alarm_iterations: 20
+  cb_healthy_actions: 
+    "max_bitrate": 6000
+    "resolution": '3840x2160'
